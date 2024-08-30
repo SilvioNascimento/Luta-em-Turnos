@@ -1,5 +1,3 @@
-// let turnos = 0;
-
 let jogador1 = "Jogador1";
 let vidaJogador1 = 100;
 
@@ -13,9 +11,6 @@ function numAleatorioDeZeroADois() {
     return valorAleatorio
 }
 
-// function passarRodada() {
-//     turnos++;
-// }
 
 function causarDano(vidaJogadorAtacado, dano) {
     return vidaJogadorAtacado - dano;
@@ -29,6 +24,7 @@ function verificarCondicao(vidaJogadorAtacado) {
         return true;
     }
 }
+
 
 for(let turnos = 0; turnos <= 5; turnos++) {
     let jogadorAtacadoPodeContinuar = true;
